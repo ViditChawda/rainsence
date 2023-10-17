@@ -1,4 +1,3 @@
-import React from 'react'
 import { ImRainsense } from '../assets/images'
 
 function Header() {

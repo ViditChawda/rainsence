@@ -11,7 +11,7 @@ function App() {
       <div className="absolute top-0 z-100">
         <Header />
       </div>
-      <div className="absolute top-[210px] text-[#0E5666] right-[60px] text-right font-black text-4xl">
+      <div className="absolute top-[90px] text-[#0E5666] right-[60px] text-right font-black text-4xl">
         <p>Rainfall Prediction And <br /> Water Resource Management <br /></p>
         <p className="text-2xl text-black font-bold">Using Indian Knowledge System</p>
       </div>
@@ -19,7 +19,7 @@ function App() {
         <div className="h-full w-full text-right text-3xl text-[#0E5666] py-3 font-bold rounded-r-lg"> PRE</div>
         <div className="bg-[#0E5666] h-full w-full text-3xl text-white py-3 font-bold rounded-r-lg">DICT</div>
       </div>
-      <div className="fixed absolute top-1 right-[40px]">
+      <div className="absolute bottom-1 right-1">
         <img src={ImClouds} alt="" />
       </div>
     </div>
