@@ -1,7 +1,6 @@
-import React from 'react'
 import { IMwater } from '../../assets/images'
 import Header from '../../components/Header'
-import { useForm, Controller } from 'react-hook-form';
+import { useForm } from 'react-hook-form';
 
 interface FormData {
     date: string;
@@ -27,7 +26,7 @@ interface FormData {
 const directionOptions = ['N', 'S', 'NW', 'NE', 'W', 'E', 'SW', 'SE'];
 
 function Form() {
-    const { handleSubmit, errors, register } = useForm<FormData>();
+    const { handleSubmit, register } = useForm<FormData>();
 
     const onSubmit = (data: FormData) => {
         console.log(data);
